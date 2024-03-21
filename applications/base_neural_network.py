@@ -48,6 +48,13 @@ class NN(ABC):
     ):
         pass
 
+    @abstractmethod
+    def predict(
+        self,
+        X: np.ndarray,
+    ) -> np.ndarray:
+        pass
+
     def _predict_model_outputs(
         self,
         X: np.ndarray,
@@ -127,9 +134,3 @@ class NN(ABC):
             loss = loss / count
             self._loss_history[self._epoch] = loss
             print(f"Loss: {round(loss, 5)}")
-
-    def predict(
-        self,
-        X: np.ndarray,
-    ) -> np.ndarray:
-        pass
