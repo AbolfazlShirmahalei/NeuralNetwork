@@ -72,7 +72,7 @@ class NN(ABC):
         else:
             assert X.shape[1] == self._X_size, (
                 f"X must be in the form of (n, {self._X_size})"
-                f"but it is in the form of (n, {X.shape[1]})."
+                f", but it is in the form of (n, {X.shape[1]})."
             )
 
     def _data_loader(
