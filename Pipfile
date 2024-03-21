@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 numpy = "==1.26.4"
+tqdm = "==4.66.2"
 
 [dev-packages]
 
