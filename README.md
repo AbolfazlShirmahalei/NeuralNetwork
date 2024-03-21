@@ -7,7 +7,7 @@
    2. [Pipenv](#Pipenv)
 
 ## Summary
-In this repository, we implement an infrastructure for training neural networks.
+In this repository, we implement an infrastructure for training [Neural Networks](https://en.wikipedia.org/wiki/Neural_network_(machine_learning)).
 
 ## Setting-Up
 In this project, we use [Pyenv](https://github.com/pyenv/pyenv) for controlling Python versions, and 
